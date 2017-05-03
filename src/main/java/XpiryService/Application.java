@@ -4,6 +4,7 @@ import static spark.Spark.get;
 import static spark.Spark.port;
 
 /**
+ * start point for app start.
  * Created by ramkumarsundarajan on 5/2/17.
  */
 public class Application {
