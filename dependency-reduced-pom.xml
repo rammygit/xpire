@@ -28,7 +28,7 @@
         <configuration>
           <transformers>
             <transformer>
-              <mainClass>XpiryService.Application</mainClass>
+              <mainClass>app.Application</mainClass>
             </transformer>
           </transformers>
         </configuration>

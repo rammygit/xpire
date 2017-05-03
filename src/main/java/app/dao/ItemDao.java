@@ -1,4 +1,4 @@
-package dao;
+package app.dao;
 
 /**
  * Created by ramkumarsundarajan on 5/2/17.
