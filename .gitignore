@@ -19,3 +19,10 @@
 .idea/**/uiDesigner.xml
 
 ./bestby.iml
+./target/*.*
+.idea/
+src/main/java/app/controller/
+src/test/
+target/classes/app/
+target/classes/static/
+target/generated-sources/
