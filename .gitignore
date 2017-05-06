@@ -19,12 +19,4 @@
 .idea/**/uiDesigner.xml
 
 .idea/
-src/test/
-
-target/generated-sources/
-target/classes/
-
-target/maven-status/
-target/maven-archiver/
-target/original-xpire-1.0-SNAPSHOT.jar
-target/xpire-1.0-SNAPSHOT.jar
+target/
