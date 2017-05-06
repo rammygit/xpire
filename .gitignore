@@ -21,8 +21,12 @@
 ./bestby.iml
 ./target/*.*
 .idea/
-src/main/java/app/controller/
 src/test/
 target/classes/app/
 target/classes/static/
 target/generated-sources/
+target/classes/
+target/classes/XpiryService
+target/maven-status/
+target/original-xpire-1.0-SNAPSHOT.jar
+target/xpire-1.0-SNAPSHOT.jar
