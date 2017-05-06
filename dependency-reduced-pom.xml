@@ -79,6 +79,8 @@
                     <srcFile>src/main/resources/schema-h2.sql</srcFile>
                     <srcFile>src/main/resources/data-h2.sql</srcFile>
                   </srcFiles>
+                  <skip>${maven.test.skip}</skip>
+                  <forkMode>always</forkMode>
                 </configuration>
               </execution>
             </executions>
@@ -86,7 +88,8 @@
               <dependency>
                 <groupId>com.h2database</groupId>
                 <artifactId>h2</artifactId>
-                <version>${h2.version}</version>
+                <version>1.4.194</version>
+                <scope>compile</scope>
               </dependency>
             </dependencies>
             <configuration>
@@ -97,7 +100,7 @@
           <plugin>
             <groupId>org.jooq</groupId>
             <artifactId>jooq-codegen-maven</artifactId>
-            <version>${org.jooq.version}</version>
+            <version>3.9.1</version>
             <executions>
               <execution>
                 <id>generate-h2</id>
@@ -127,7 +130,7 @@
                     </generate>
                     <target>
                       <packageName>app.database.h2</packageName>
-                      <directory>${basedir}/src/main/java</directory>
+                      <directory>/Users/ramkumarsundarajan/Documents/gitrepo/intellijProjects/xpire/src/main/java</directory>
                     </target>
                   </generator>
                 </configuration>
@@ -137,7 +140,8 @@
               <dependency>
                 <groupId>com.h2database</groupId>
                 <artifactId>h2</artifactId>
-                <version>${h2.version}</version>
+                <version>1.4.194</version>
+                <scope>compile</scope>
               </dependency>
             </dependencies>
           </plugin>

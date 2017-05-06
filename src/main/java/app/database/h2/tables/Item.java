@@ -36,7 +36,7 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Item extends TableImpl<ItemRecord> {
 
-    private static final long serialVersionUID = -1905198223;
+    private static final long serialVersionUID = -460403949;
 
     /**
      * The reference instance of <code>PUBLIC.ITEM</code>
@@ -54,7 +54,7 @@ public class Item extends TableImpl<ItemRecord> {
     /**
      * The column <code>PUBLIC.ITEM.ID</code>.
      */
-    public final TableField<ItemRecord, Integer> ID = createField("ID", org.jooq.impl.SQLDataType.INTEGER.nullable(false).defaultValue(org.jooq.impl.DSL.field("(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_FDA3C88B_2DC0_43D6_A226_E9B982551EE6)", org.jooq.impl.SQLDataType.INTEGER)), this, "");
+    public final TableField<ItemRecord, Integer> ID = createField("ID", org.jooq.impl.SQLDataType.INTEGER.nullable(false).defaultValue(org.jooq.impl.DSL.field("(NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_9A441E3A_7FAB_49EE_854D_2C714EA19054)", org.jooq.impl.SQLDataType.INTEGER)), this, "");
 
     /**
      * The column <code>PUBLIC.ITEM.NAME</code>.
